@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { 
+	"namespace": "android_app", 
+	"package_name": "com.wibucode.guraclick",
+	"sha256_cert_fingerprints": ["E9:45:01:B8:94:3B:DF:AF:8B:73:DB:76:C5:A5:DA:D0:1F:88:C8:4C:9D:DE:09:CE:75:06:8D:15:D2:C4:72:10"]
+  }
+}]

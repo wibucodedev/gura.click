@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input:checked ~ .dot {
+    @apply translate-x-[100%] bg-primary;
+  }
+
+  audio::-webkit-media-controls-mute-button {
+    display: none !important;
+  }
+
+  audio::-webkit-media-controls-volume-slider {
+    display: none !important;
+  }
+}
+
+@layer utilities {
+  .button-shadow {
+    box-shadow: 0 0 15px rgb(42, 103, 148, 0.5);
+  }
+  .outline-gura {
+    text-shadow: 3px 3px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,
+      -1px 1px 0 #fff, 1px 1px 0 #fff;
+  }
+  .outline-score {
+    text-shadow: 3px 3px 0 #fbb, -1px -1px 0 #fbb, 1px -1px 0 #fbb,
+      -1px 1px 0 #fbb, 1px 1px 0 #fbb;
+  }
+}
